@@ -12,7 +12,7 @@ const App = () => {
       className="min-h-screen bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/5_jgs6up.png')" }}
     >
-      <div className="fixed bottom-10 right-4 flex flex-col gap-2">
+      <div className="opacity-20 hover:opacity-100 transition-opacity duration-300 fixed bottom-10 right-4 flex flex-col gap-2" style={{ zIndex: 999 }}>
         <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='WhatsApp'>
           <Button isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilWhatsapp height={25} width={25} /></Button>
         </Tooltip>
