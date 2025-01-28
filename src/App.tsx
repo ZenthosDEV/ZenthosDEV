@@ -306,7 +306,7 @@ const App = () => {
               <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">H Wave Studio</h2>
-                  <p className="text-gray-600">Audio Muxing</p>
+                  <p className="text-gray-600">Audio Engineer</p>
                 </div>
               </div>
             </div>
