@@ -10,7 +10,7 @@ const App = () => {
     >
       <FloatingActionButton/>
       <section className="text-white body-font">
-        <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 pt-16 items-center justify-center flex-col">
           <ZenthosLogo width={200} className='mb-8' />
           <img className="lg:w-2/6 md:w-3/6 w-5/6 object-cover object-center rounded" alt="hero" src="/svg/darkvale.svg"></img>
         </div>
