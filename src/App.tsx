@@ -1,38 +1,14 @@
-import { UilDiscord } from './Icons/UilDiscord'
-import { UilGithub } from './Icons/UilGitub'
-import { UilTwitter } from './Icons/UilTwitter'
-import { UilWhatsapp } from './Icons/UilWhatsapp'
-import { UilYoutube } from './Icons/UilYoutube'
+import FloatingActionButton from './FloatingSocialButtons'
 import ZenthosLogo from './Icons/ZenthosLogo'
-import { Button, Card, Image, Tooltip, CardFooter } from '@heroui/react'
+import { Button, Card, Image, CardFooter } from '@heroui/react'
 
 const App = () => {
   return (
     <div
       className="min-h-screen bg-fixed bg-cover bg-no-repeat bg-center"
-      style={{ backgroundImage: "url('https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/5_jgs6up.png')" }}
+      style={{ backgroundImage: "url('https://res.cloudinary.com/dzgjua0zm/image/upload/h_1080,w_1920/q_auto:eco/5_jgs6up.png')" }}
     >
-      <div className="opacity-20 hover:opacity-100 transition-opacity duration-300 fixed bottom-10 right-4 flex flex-col gap-2" style={{ zIndex: 999 }}>
-        <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='WhatsApp'>
-          <Button isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilWhatsapp height={25} width={25} /></Button>
-        </Tooltip>
-        <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='Github'>
-          <Button
-            onPress={() => window.open('https://github.com/ZenthosDEV', "_blank")}
-            isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilGithub height={25} width={25} /></Button>
-        </Tooltip>
-        <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='Discord'>
-          <Button
-            onPress={() => window.open('https://discord.gg/KhN8BBtGYD', "_blank")}
-            isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilDiscord height={25} width={25} /></Button>
-        </Tooltip>
-        <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='YouTube'>
-          <Button isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilYoutube height={25} width={25} /></Button>
-        </Tooltip>
-        <Tooltip className="capitalize bg-red-800 text-white" placement='left' content='Twitter'>
-          <Button isIconOnly className='my-2 flex items-center justify-center bg-[#990d0f] text-white' radius='full'><UilTwitter height={25} width={25} /></Button>
-        </Tooltip>
-      </div>
+      <FloatingActionButton/>
       <section className="text-white body-font">
         <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
           <ZenthosLogo width={200} className='mb-8' />
@@ -45,7 +21,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/Poster_Portrait_txxiwg.jpg"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_300/q_auto:eco/Poster_Portrait_txxiwg.jpg"
               width={300}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -66,7 +42,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/Poster_Landscape_bxrn3s.jpg"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/Poster_Landscape_bxrn3s.jpg"
               width={500}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -90,7 +66,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/1_wnpkgm.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/1_wnpkgm.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -111,7 +87,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/2_svziqb.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/2_svziqb.png"
               width={450}
             />
             <CardFooter className="justify-between overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -132,7 +108,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/3_llvi5k.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/3_llvi5k.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -153,7 +129,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/4_ziy4xl.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/4_ziy4xl.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -174,7 +150,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/5_jgs6up.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/5_jgs6up.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -195,7 +171,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/6_wsmczf.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/6_wsmczf.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -216,7 +192,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/7_y78ngt.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/7_y78ngt.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -237,7 +213,7 @@ const App = () => {
               isZoomed
               alt="Woman listing to music"
               className="object-cover"
-              src="https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/8_gcm06n.png"
+              src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/8_gcm06n.png"
               width={450}
             />
             <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
