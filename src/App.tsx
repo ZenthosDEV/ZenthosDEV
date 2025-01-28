@@ -24,13 +24,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_300/q_auto:eco/Poster_Portrait_txxiwg.jpg"
               width={300}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/nDTmgv8/Poster-Portrait.jpg', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -45,13 +45,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/Poster_Landscape_bxrn3s.jpg"
               width={500}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/HXH4TYq/Poster-Landscape.jpg', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -69,13 +69,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/1_wnpkgm.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/VCGdPqz/1.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -93,10 +93,10 @@ const App = () => {
             <CardFooter className="justify-between overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/FhHCHTF/2.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -111,13 +111,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/3_llvi5k.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/CzzchkW/3.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -132,13 +132,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/4_ziy4xl.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/yffnTTS/4.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -153,13 +153,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/5_jgs6up.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/PtKgGNT/5.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -174,13 +174,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/6_wsmczf.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/6YRGBf0/6.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -195,13 +195,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/7_y78ngt.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/YWfh2PW/7.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
@@ -216,13 +216,13 @@ const App = () => {
               src="https://res.cloudinary.com/dzgjua0zm/image/upload/w_500/q_auto:eco/8_gcm06n.png"
               width={450}
             />
-            <CardFooter className="justify-between  border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
               <Button
                 onPress={() => window.open('https://i.ibb.co/VB4zzWM/8.png', "_blank")}
-                className="text-tiny text-white bg-black/20"
+                className="text-base text-white bg-black/20"
                 color="warning"
                 radius="lg"
-                size="sm"
+                size="md"
                 variant="flat"
               >
                 Download
