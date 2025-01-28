@@ -9,7 +9,7 @@ import { Button, Card, Image, Tooltip, CardFooter } from '@heroui/react'
 const App = () => {
   return (
     <div
-      className="min-h-screen bg-cover bg-no-repeat bg-center"
+      className="min-h-screen bg-fixed bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('https://res.cloudinary.com/dzgjua0zm/image/upload/q_auto:low/5_jgs6up.png')" }}
     >
       <div className="opacity-20 hover:opacity-100 transition-opacity duration-300 fixed bottom-10 right-4 flex flex-col gap-2" style={{ zIndex: 999 }}>
@@ -289,8 +289,16 @@ const App = () => {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-white title-font font-medium">Chandramal</h2>
+                  <h2 className="text-white title-font font-medium">Chalangana</h2>
                   <p className="text-gray-600">Graphics Designing & Marcketing</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">Nimsith</h2>
+                  <p className="text-gray-600">Marcketing</p>
                 </div>
               </div>
             </div>
