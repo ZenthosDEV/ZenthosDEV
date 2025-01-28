@@ -14,7 +14,7 @@ const App = () => {
           <ZenthosLogo width={200} className='mb-8' />
           <img className="lg:w-2/6 md:w-3/6 w-5/6 object-cover object-center rounded" alt="hero" src="/svg/darkvale.svg"></img>
         </div>
-        <div className='flex justify-center mb-2 text-red-800 font-light text-6xl sm:text-8xl font-reborn uppercase'>Coming Zoon</div>
+        <div className='flex justify-center text-red-800 font-light text-6xl sm:text-8xl font-reborn uppercase'>Coming Zoon</div>
         <div className='flex justify-center mb-5 font-light text-4xl uppercase'>Posters</div>
         <div className='flex flex-col justify-center items-center gap-4 mb-5'>
           <Card isFooterBlurred className="border-none" radius="lg">
