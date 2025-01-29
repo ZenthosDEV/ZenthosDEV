@@ -1,6 +1,7 @@
 import FloatingActionButton from './FloatingSocialButtons'
 import ZenthosLogo from './Icons/ZenthosLogo'
 import { Button, Card, Image, CardFooter } from '@heroui/react'
+import VisitCounter from './VisitCounter'
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       className="min-h-screen bg-fixed bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('https://res.cloudinary.com/dzgjua0zm/image/upload/h_1080,w_1920/q_auto:eco/5_jgs6up.png')" }}
     >
-      <FloatingActionButton/>
+      <FloatingActionButton />
       <section className="text-white body-font">
         <div className="container mx-auto flex px-5 pt-16 items-center justify-center flex-col">
           <ZenthosLogo width={200} className='mb-8' />
@@ -232,7 +233,8 @@ const App = () => {
           </Card>
         </div>
       </section>
-      <section className="text-white mt-5 bg-gray-900 body-font">
+      <div className='flex justify-center my-5'><VisitCounter /></div>
+      <section className="text-white bg-gray-900 body-font">
         <div className="container px-5 py-5 mx-auto">
           <div className="flex flex-col text-center w-full mb-5">
             <h1 className="sm:text-3xl text-2xl font-light uppercase title-font mb-2 text-white">Our Team</h1>
@@ -287,6 +289,9 @@ const App = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex flex-col text-center w-full mt-5">
+            <p className="lg:w-2/3 mx-auto leading-relaxed italic text-base">2025 Zenthos, Zen Games</p>
           </div>
         </div>
       </section>
