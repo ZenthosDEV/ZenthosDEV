@@ -17,7 +17,7 @@ const VisitCounter = () => {
     incrementView();
   }, []);
 
-  return <Code color="danger">Visitors : {views !== null ? views : "Loading..."}</Code>;
+  return <Code color="danger" size="lg">Visitors : {views !== null ? views : "Loading..."}</Code>;
 };
 
 export default VisitCounter;
