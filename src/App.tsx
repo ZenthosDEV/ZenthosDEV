@@ -268,7 +268,7 @@ const App = () => {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-white title-font font-medium">Perera</h2>
+                  <h2 className="text-white title-font font-medium">Sithnula</h2>
                   <p className="text-gray-600">Graphics Designing</p>
                 </div>
               </div>
