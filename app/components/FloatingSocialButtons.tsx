@@ -1,13 +1,15 @@
+'use client'
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button, Tooltip } from "@heroui/react";
-import { UilDiscord } from './Icons/UilDiscord';
-import { UilGithub } from './Icons/UilGitub';
-import { UilTwitter } from './Icons/UilTwitter';
-import { UilWhatsapp } from './Icons/UilWhatsapp';
-import { UilYoutube } from './Icons/UilYoutube';
-import UilBrokenGlobe from './Icons/UilBorkenGlobe';
-import UilGlobe from './Icons/UilGlobe';
+import { UilDiscord } from '../icons/UilDiscord';
+import { UilGithub } from '../icons/UilGitub';
+import { UilTwitter } from '../icons/UilTwitter';
+import { UilWhatsapp } from '../icons/UilWhatsapp';
+import { UilYoutube } from '../icons/UilYoutube';
+import UilBrokenGlobe from '../icons/UilBorkenGlobe';
+import UilGlobe from '../icons/UilGlobe';
 
 const FloatingActionButton = () => {
   const [isOpen, setIsOpen] = useState(false);

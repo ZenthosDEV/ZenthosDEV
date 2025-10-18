@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin '../utils/hero.ts';
+/* Note: You may need to change the path to fit your project structure */
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+
+@font-face {
+    font-family: 'Revamped';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Revamped'), url('/fonts/Revamped.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Reborn';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/fonts/Reborn.woff2') format('woff2'), url('/fonts/Reborn.woff') format('woff');
+}
+  

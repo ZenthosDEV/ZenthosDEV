@@ -1,3 +1,5 @@
+'use client'
+
 import { Code } from '@heroui/react';
 import { useEffect, useState } from "react";
 
