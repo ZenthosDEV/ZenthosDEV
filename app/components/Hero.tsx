@@ -4,6 +4,13 @@ import NextImage from 'next/image'
 import { Image } from '@heroui/image'
 import { Button } from '@heroui/button'
 import { ArrowRight } from 'lucide-react'
+import InfiniteCarousel from './InfiniteCarousel'
+
+const Images = [
+  { id: 1, src: "/static/image_03.png", alt: "dv-1" },
+    { id: 2, src: "/static/image_01.png", alt: "dv-2" },
+    { id: 3, src: "/static/image_02.jpg", alt: "dv-3" }
+  ];
 
 const Hero = () => {
   return (
@@ -27,43 +34,13 @@ const Hero = () => {
           Where Imagination Meets Reality
         </p>
       </div>
-      <div className="relative flex justify-center items-center h-[224px] w-[900px]">
-        {/* Left Image */}
-        <div className="absolute left-1/2 -translate-x-[150%]">
-          <Image
-            isBlurred
-            as={NextImage}
-            src="/static/image_01.png"
-            alt="darkvale"
-            height={157}
-            width={280}
-            className="rounded-lg"
-          />
-        </div>
-        {/* Center Image */}
-        <div className="absolute left-1/2 -translate-x-1/2 z-10 shadow-2xs">
-          <Image
-            isBlurred
-            as={NextImage}
-            src="/static/image_03.png"
-            alt="darkvale"
-            height={224}
-            width={400}
-            className="rounded-lg"
-          />
-        </div>
-        {/* Right Image */}
-        <div className="absolute left-1/2 translate-x-[50%]">
-          <Image
-            isBlurred
-            as={NextImage}
-            src="/static/image_02.jpg"
-            alt="darkvale"
-            height={157}
-            width={280}
-            className="rounded-lg"
-          />
-        </div>
+      <div className="flex flex-col items-center pt-10">
+        <InfiniteCarousel
+          images={Images}
+          /* 5 second wait before cycling */
+          intervalTime={5000}
+          autoPlay={true}
+        />
       </div>
       <div className='w-[600px]'>
         <p className={`${notoSerif.className} text-lg backdrop-filter backdrop-blur-sm border-1 bg-gray-100/10 border-white/10 rounded-xl p-2`}>
@@ -77,7 +54,7 @@ const Hero = () => {
           size='lg'
           radius='full'
           endContent={
-            <ArrowRight size={18}/>
+            <ArrowRight size={18} />
           }
         >Explore Games</Button>
       </div>
