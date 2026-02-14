@@ -13,7 +13,7 @@ interface NavBarProps {
 const NavBar = ({ className }: NavBarProps) => {
   const pathname = usePathname()
   const router = useRouter()
-  const [selected, setSelected] = useState('zengames')
+  const [selected, setSelected] = useState('/')
 
   useEffect(() => {
     setSelected(pathname)
@@ -35,7 +35,8 @@ const NavBar = ({ className }: NavBarProps) => {
         <Tab key="/darkvale" title="DARKVALE" />
         <Tab key="/news" title="News" />
         <Tab key="/account" title="Account" />
-        <Tab key="/downloads" title="Downloads" />
+        {/* This tab is disabled at this time */}
+        {/* <Tab key="/downloads" title="Downloads" /> */}
       </Tabs>
     </nav>
   )
