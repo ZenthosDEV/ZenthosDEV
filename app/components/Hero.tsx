@@ -7,10 +7,11 @@ import { ArrowRight } from 'lucide-react'
 import InfiniteCarousel from './InfiniteCarousel'
 
 const Images = [
-  { id: 1, src: "/static/image_03.png", alt: "dv-1" },
+  { id: 1, src: "/static/image_03.png", alt: "dv-3" },
   { id: 2, src: "/static/image_04.jpg", alt: "dv-4" },
-  { id: 3, src: "/static/image_01.png", alt: "dv-2" },
-  { id: 4, src: "/static/image_02.jpg", alt: "dv-3" },
+  { id: 3, src: "/static/image_01.png", alt: "dv-1" },
+  { id: 4, src: "/static/image_02.jpg", alt: "dv-2" },
+  { id: 5, src: "/static/image_05.jpg", alt: "dv-5" },
 ];
 
 const Hero = () => {
